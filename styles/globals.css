@@ -1,0 +1,377 @@
+@import "~normalize.css";
+@import "~@blueprintjs/core/lib/css/blueprint.css";
+@import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+html,
+* {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500 !important;
+}
+svg {
+  font-size: 24px;
+}
+.icons {
+  margin: 10% !important;
+}
+/* Overwrite */
+.ant-menu.ant-menu-dark {
+  background: #eb5757 !important;
+}
+.ant-layout-header {
+  background: #eb5757 !important;
+  box-shadow: 1px 1px 3px #a0a0a0;
+}
+.ant-menu-horizontal > .ant-menu-item:hover {
+  background-color: #222222 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+#components-layout-demo-top .logo {
+  float: left;
+  width: 120px;
+  height: 31px;
+  margin: 16px 24px 16px 0;
+  background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+  float: right;
+  margin: 16px 0 16px 24px;
+}
+
+.redbuttons {
+  background: #eb5757 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  margin-left: 2px;
+}
+.redText {
+  color: #eb5757 !important;
+  font-weight: 800;
+}
+.redbuttons:hover {
+  background: #222222 !important;
+}
+
+/* Navigation */
+.layout {
+  z-index: 1;
+}
+/* Main Page */
+.bannerImage {
+  height: 98vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  background-image: url("https://images.pexels.com/photos/6738438/pexels-photo-6738438.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+
+.bannerImageStyle {
+  height: 98vh;
+  width: 100%;
+  background-color: rgba(11, 11, 13, 0.2);
+  display: flex;
+  justify-content: center;
+}
+.bannerTextBox {
+  margin-top: 15%;
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.bannerText {
+  text-align: center;
+}
+.bannerText h1 {
+  font-weight: bolder;
+  font-size: 52px;
+  font-family: "Major Mono Display", monospace !important;
+  color: #f9f6e3 !important;
+}
+.bannerText p {
+  font-weight: bold;
+  color: #f9f6e3 !important;
+  font-family: "Comforter", cursive;
+  font-size: 24px;
+  font-weight: 100;
+}
+/* Section1 */
+.Homesection1Header {
+  margin-top: 3%;
+  display: "flex";
+  justify-content: center;
+  text-align: center;
+}
+.section1CardRow {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2%;
+}
+.section1CardRow button {
+  background: #eb5757 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+}
+.section1CardRow button:hover {
+  background: #222222 !important;
+}
+.section1Card {
+  display: flex !important;
+  justify-content: center !important;
+  box-shadow: 2px 2px 4px #a0a0a0;
+}
+.section1Card:hover {
+  /* box-shadow: 2px 2px 4px #4e1d1d; */
+}
+
+/* Section2 */
+.Section2Side1 {
+  height: 80vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-vector/city-map-navigate-route_23-2148309838.jpg?w=740");
+}
+/* Home Section3 */
+.Homesection3Row {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.Homesection3Ladakh {
+  box-shadow: 2px 2px 2px #a0a0a0;
+  color: white;
+  margin: 3%;
+  height: 60vh;
+  padding: 1%;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-photo/confluence-indus-zanskar-rivers-leh-ladakh-india_1150-11112.jpg?size=626&ext=jpg&query=Kashmir&position=16&from_view=search&ga=GA1.2.540788866.1652378093");
+}
+.Homesection3Ladakh h1 {
+  color: white;
+}
+.Homesection3Kashmir {
+  box-shadow: 2px 2px 2px #a0a0a0;
+  margin: 3%;
+  height: 60vh;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://images.pexels.com/photos/7824514/pexels-photo-7824514.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+}
+.Homesection3Kashmir h1 {
+  color: white;
+}
+.Homesection3Goa {
+  box-shadow: 2px 2px 2px #a0a0a0;
+  margin: 3%;
+  color: white;
+  height: 60vh;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6772.jpg?size=626&ext=jpg&ga=GA1.2.540788866.1652378093");
+}
+.Homesection3Goa h1 {
+  color: white;
+}
+/* Home Section 4 */
+.HomeSection4Card {
+  margin: 1.5%;
+  padding: 2%;
+  box-shadow: 2px 2px 5px 1px #a0a0a0 !important;
+  display: flex;
+  justify-content: space-between;
+}
+.homeSection4Carousel {
+  box-shadow: 2px 2px 6px 1px #a0a0a0 !important;
+  flex: 0 0 46.5% !important;
+}
+/* Gallery Secton 1 */
+.GallerySection1Col {
+  margin-top: 4%;
+  padding: 5%;
+}
+
+.gallerySection1Images {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+.gallerySection1Images img {
+  margin-bottom: 8%;
+}
+.gallerySection1Images h1 {
+  margin-bottom: 2%;
+}
+.galleryImage7 {
+  box-shadow: 4px 4px 4px #a0a0a0;
+}
+/* About US  */
+.aboutUsSection1Cards {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.aboutUsSection1Card {
+  box-shadow: 2px 2px 4px 1px #a0a0a0;
+  padding: 2%;
+  margin-bottom: 4%;
+}
+.AboutImages {
+  box-shadow: 2px 2px 4px 1px #a0a0a0;
+}
+/* Contact Us */
+.ContactUsSection1 {
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+  box-shadow: 2px 2px 4px 1px #a0a0a0;
+  padding: 2%;
+}
+.ContactusMessageBox {
+  box-shadow: 2px 2px 8px 0px #a0a0a0;
+  padding: 3%;
+  background-color: #222222;
+}
+.ContactusMessageBox input {
+  border-radius: 5px;
+  border: 1px solid #eb5757;
+}
+.ContactusMessageBox h2 {
+  color: white !important;
+}
+.ContactusMessageBox button {
+  background: #eb5757 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  border: 1px solid transparent !important;
+}
+.ContactusMessageBox button:hover {
+  border: 1px solid #eb5757 !important;
+  background: transparent !important;
+}
+
+.ContactusMessageBox input {
+  width: 60%;
+  margin-bottom: 2%;
+}
+.ContactusMessageBox button {
+  width: 45%;
+  margin-top: 2%;
+}
+/* Hotels */
+.HotelsSectionImages {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.HotelsSectionImages button {
+  background: #eb5757 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+}
+.HotelsSectionImages button:hover {
+  background: #222222 !important;
+}
+.HotelCards {
+  box-shadow: 2px 2px 4px 1px #a0a0a0;
+  margin-bottom: 4%;
+}
+.HotelCardsinner {
+  height: 550px;
+}
+.HotelDetailCard {
+  margin-left: 1.5%;
+  margin-right: 1.5%;
+  padding: 2%;
+  box-shadow: 2px 2px 5px 1px #a0a0a0;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* //PAckage */
+.PackageDays {
+  margin: 2%;
+  padding: 2%;
+  box-shadow: 2px 2px 5px 1px #a0a0a0 !important;
+}
+/* Footer */
+.ant-layout-footer {
+  color: white !important;
+  background-color: #222222 !important;
+}
+.ant-layout-footer h1 {
+  color: white !important;
+}
+.ant-layout-footer a {
+  color: white !important;
+}
+.Footer {
+  margin-top: 4%;
+}
+.footerRow1 {
+  display: flex;
+  justify-content: space-between;
+}
+.footerRow2 {
+  display: flex;
+  justify-content: center;
+}
+/* WHATSAPP */
+/* for desktop */
+.whatsapp_float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #eb5757;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.whatsapp-icon {
+  margin-top: 16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px) {
+  .whatsapp-icon {
+    margin-top: 10px;
+  }
+  .whatsapp_float {
+    width: 40px;
+    height: 40px;
+    bottom: 20px;
+    right: 10px;
+    font-size: 22px;
+  }
+}
